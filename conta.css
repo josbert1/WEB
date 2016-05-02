@@ -1,0 +1,109 @@
+.titulo{
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 45px;
+	font-weight: 100;
+	color: #ecf0f1 !important;
+		
+}
+
+.titulo4{
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 50px;
+	font-weight: 100;
+	color: #ecf0f1 !important;
+		
+}
+.footer-text{
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 52px;
+	font-weight: 100;
+	color: #ecf0f1 !important;
+}
+
+.titulo2{
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 45px;
+	font-weight: 100;
+	color: #34495e;
+		
+}
+
+.contenido{
+	font-family: Courier New, monospace;
+	font-weight: 100;
+	color: #ecf0f1;
+}
+.contenido2{
+	font-family: Courier New, monospace;
+	font-weight: 100;
+	color: #2c3e50;
+}
+.contenido3{
+	font-family: Courier New, monospace;
+	font-weight: 400;
+	color: #ecf0f1;
+	font-size: 28px;
+}
+.img-margin-top{
+	margin-top: 40px;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.jumbotrom1{
+	padding-left:40px;
+	padding-top: 3px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+}
+
+.jumbotrom2{
+	padding: 0;
+	margin: 0;
+
+}
+.jumbotrom3{
+	padding: 0;
+	margin: 15px;
+	margin-bottom: 0;
+
+}
+
+           
+ @media only screen and (max-width: 1300px) {
+    .respon{
+
+        background-color: #212121;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    ._404{
+        font-size: 12px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    ._404{
+        font-size: 14px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    ._404{
+        font-size: 9px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    ._404{
+        font-size: 7px;
+    }
+}
